@@ -2,7 +2,7 @@
 	$enteredUsername = $_POST["user"];
     $enteredPassword = $_POST["pass"];
 	
-	echo $enteredUsername;
+	echo $enteredUsername + 'WHY';
 	echo $enteredPassword;
 	
 	//Alpha
