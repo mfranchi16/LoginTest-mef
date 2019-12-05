@@ -1,0 +1,35 @@
+<?php
+	$enteredUsername = $_POST["user"];
+    $enteredPassword = $_POST["pass"];
+	
+	//Alpha
+	if($enteredUserName == 'Alpha Flight' and $enterPassword == 'Kane'){
+		echo "<script>window.open("Template.html"); </script>";
+		echo "It worked";
+	}
+	
+	//Bravo
+	if($enteredUserName == 'Bravo Flight' and $enterPassword == 'Toews'){
+		var boo = true;
+	}
+	
+	//Charlie
+	if($enteredUserName == 'Charlie Flight' and $enterPassword == 'Shaw'){
+		var boo = true;
+	}
+	
+	//Delta
+	if($enteredUserName == 'Delta Flight' and $enterPassword == 'Strome'){
+		var boo = true;
+	}
+	
+	//POC
+	if($enteredUserName == 'POC' and $enterPassword == 'Dach'){
+		var boo = true;
+	}
+	
+	//Cadre
+	if($enteredUserName == 'Cadre' and $enterPassword == 'Saad'){
+		var boo = true;
+	}
+?>
