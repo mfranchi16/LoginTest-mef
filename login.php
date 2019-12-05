@@ -2,7 +2,6 @@
 	$enteredUsername = $_POST["user"];
     $enteredPassword = $_POST["pass"];
 	
-	echo 'eaaat my ass!!!!';
 	echo $enteredUsername;
 	echo $enteredPassword;
 	
